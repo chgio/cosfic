@@ -1,4 +1,4 @@
-# PyCOSFiC: Python Component Optimiser for Simple Filter Circuits
+# PyCOSFiC: a Python Component Optimiser for Simple Filter Circuits.
 
 This little script helps automate the picking of components for elementary R-C / R-L filter circuits to get as close as possible to the specified cutoff parameter.
 
@@ -25,7 +25,8 @@ The text files in the `components` folder are dedicated to hosting the lists of 
 - `m`: -3
 - `u`: -6
 - `n`: -9
-- `p`: -12    
+- `p`: -12
+
 Not unlike scientific notation.
 
 The `components` files are shipped with a handful of the most common values for both convenience and example.
