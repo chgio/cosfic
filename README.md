@@ -1,6 +1,8 @@
-# PyCOSFiC: a Python Component Optimiser for Simple Filter Circuits.
+# COSFiC:
+## a Component Optimiser for Simple Filter Circuits
 
-This little script helps automate the picking of components for elementary R-C / R-L filter circuits to get as close as possible to the specified cutoff parameter.
+This little Python script helps automate picking the components for elementary RC/RL/LC filter circuits to get as close as possible to the specified cutoff parameter.
+
 
 ## Dependencies
 
@@ -32,9 +34,10 @@ Not unlike scientific notation.
 The `components` files are shipped with a handful of the most common values for both convenience and example.
 
 ##### SCRIPT
-Simply fire up `Python cosfic.py` in your terminal and follow the prompts.
-The cutoff parameter is requested formatted as:
-`[f, w] [x]e±[ex]`, where:
-- `f` and `w` are the *(exclusive)* switches for **frequency** or **pulsation (ω)** as quantities to specify the value for;
+Simply fire up `python3 cosfic.py` in your terminal and follow the prompts.
+
+The cutoff parameter is requested formatted as follows:
+`[w, f] [x]e±[exp]`, where:
+- `w` and `f` are the *(exclusive)* switches for **pulsation (ω)** or **frequency (f)** as quantities to specify the value for;
 - `x` is the figure for the selected quantity;
-- `ex` is the power of 10 by which multiply the figure, with + or - preposed.
+- `exp` is the power of 10 by which multiply the figure, with `+` or `-` preposed.
