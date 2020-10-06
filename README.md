@@ -6,7 +6,7 @@ This little Python script helps automate the process of picking the components f
 
 ## Dependencies
 
-- Python 3.6 -- for anything other than f-string formatting, though, any 3+ version will do;
+- Python 3.6 -- although for anything other than f-string formatting, any 3+ version will do;
 - [QuantiPhy](https://github.com/KenKundert/quantiphy).
 
 ## Installation
